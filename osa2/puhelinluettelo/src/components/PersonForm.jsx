@@ -1,5 +1,5 @@
-const AddPerson = ({ person }) => {
-    console.log("person ", person)
+const PersonForm = ({ newName, newNumber, addPerson, handleNameChange, handleNumberChange }) => {
+    console.log("newName ", newName)
     return (
         <div>
             <h2>Phonebook</h2>
@@ -18,4 +18,4 @@ const AddPerson = ({ person }) => {
     )
 }
 
-export default AddPerson
+export default PersonForm
